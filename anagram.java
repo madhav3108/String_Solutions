@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-// anangram = if we from a word from same alphabet which is used in te character is known as anamgram
+// anangram = if two different words using same character then it is known as anagram..
 // e.g: keep        peek
 
 // steps to solve anagram
