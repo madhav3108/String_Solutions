@@ -1,6 +1,7 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
-// anangram = if two different words using same character then it is known as anagram..
+// anangram = if two string using same character then it is an anagram.
 // e.g: keep        peek
 
 // steps to solve anagram
@@ -12,8 +13,17 @@ import java.util.Arrays;
 
 public class anagram {
     public static void main(String[] args) {
-        String str1="School Master";
-        String str2="The Classroom Java";
+        Scanner sc= new Scanner(System.in);
+
+        System.out.print("Enter first string- ");
+        String str1= sc.nextLine();
+        System.out.print("Enter Second number- ");
+        String str2= sc.nextLine();
+        
+        
+        // example
+        //String str1="School Master";
+        //String str2="The Classroom ";
 
         str1=str1.replace(" ", "");     // remove space
         str2=str2.replace(" ", "");
@@ -34,6 +44,11 @@ public class anagram {
         else{
             System.out.println("Its is not an anagram");
         }
+        
+        
+    }
+    
+}
         
         
     }
